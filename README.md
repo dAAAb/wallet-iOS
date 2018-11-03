@@ -10,7 +10,8 @@ You need Git Submodule to recursively download/clone all external dependencies.
 
 You may need to register computer's SSH Key to GitHub to use recursive clone:
 
-```git config --global user.name "yourname"
+```
+git config --global user.name "yourname"
 git config --global user.email "youremail" 
 ```
 
@@ -27,7 +28,8 @@ fatal: Could not read from remote repository.
 
 執行
 
-```$ git clone --recursive git@github.com:[Your GitHub Username]/[GitHub Project Name]
+```
+$ git clone --recursive git@github.com:[Your GitHub Username]/[GitHub Project Name]
 ```
 
 ## Contact
